@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: grey;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    margin: 0 20px;
+    color: aliceblue;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header button {
+    outline: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    cursor: pointer;
+    border-radius: 4px;
+    background: black;
+    color: aliceblue;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-content {
+    max-width: 1200px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+}
+
+.main-content p {
+    margin-top: 20px;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.main-content button {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 28px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background: blue;
+    color: aliceblue;
+}
+
+.pic-content {
+    position: relative;
+    width: 450px;
+    height: 450px;
+}
+
+img {
+    position: absolute;
+    max-width: 450px;
+    left: -100px;
+    top: -130px;
+}
